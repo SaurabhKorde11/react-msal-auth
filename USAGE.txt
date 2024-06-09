@@ -1,13 +1,3 @@
-# React MSAL Auth
-
-A React library for Microsoft authentication using MSAL.
-
-## Installation
-
-```sh
-npm install react-msal-auth
-
-
 ## Usage Instructions
 
 import React from 'react';
