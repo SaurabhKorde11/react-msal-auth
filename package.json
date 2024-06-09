@@ -1,6 +1,6 @@
 {
   "name": "react-msal-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React library for Microsoft authentication using MSAL",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
