@@ -1,2 +1,4 @@
-export { default as AuthProvider, useAuthContext } from './authProvider';
-export { useMsalAuth } from './useMsalAuth';
+// src/index.ts
+export { AuthProvider, AuthContext } from './context/authProvider';
+export { default as useMsalAuth } from './hooks/useMsalAuth';
+export type { AuthContextType } from './types/AuthContextType';
