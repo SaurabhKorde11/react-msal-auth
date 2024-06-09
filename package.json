@@ -1,0 +1,36 @@
+{
+  "name": "react-msal-auth",
+  "version": "1.0.0",
+  "description": "A React library for Microsoft authentication using MSAL",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "msal",
+    "authentication",
+    "typescript"
+  ],
+  "author": "Saurabh Sunil Korde",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaurabhKorde11/react-msal-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SaurabhKorde11/react-msal-auth/issues"
+  },
+  "homepage": "https://github.com/SaurabhKorde11/react-msal-auth#readme",
+  "dependencies": {
+    "@azure/msal-browser": "^2.0.0",
+    "@azure/msal-react": "^1.0.0",
+    "react": "^17.0.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
